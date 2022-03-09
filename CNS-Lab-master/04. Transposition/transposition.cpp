@@ -1,7 +1,4 @@
-/* Author : AKSHAT AGARWAL 
 
-4. Write a program to perform encryption and decryption using 
-   transposition technique with column permutation given as key.  */
 
 #include<bits/stdc++.h>
 using namespace std ;
@@ -90,27 +87,3 @@ int main()
     cout << "\nDecrypted text \t: " << decryptext << endl;
 }
 
-/*
-Enter text : transpositioncipher
-Enter key  : 4231
-
-Encryption Matrix :
----------------------
-t  r  a  n  
-s  p  o  s  
-i  t  i  o  
-n  c  i  p  
-h  e  r  x  
-
-Encrypted text 	: nsopxrptceaoiirtsinh
-
-Decryption Matrix :
----------------------
-t  r  a  n  
-s  p  o  s  
-i  t  i  o  
-n  c  i  p  
-h  e  r  x  
-
-Decrypted text 	: transpositioncipherx
-*/
